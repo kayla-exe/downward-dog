@@ -41,7 +41,7 @@ h1 {
     color: #4b4a4a;
 }
 
-#menu li {
+#menu > li {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
@@ -80,14 +80,16 @@ display: none;
 main {
     background-color: pink;
     flex: 1 0 auto;
-    margin-top: 76px;
+    margin-top: 39px;
 }
 
 footer {
     background-color: pink;
 }
 
-/* Media query: tablet and larger (768px and up) */
+/* Media queries */
+
+/* Tablet and larger (768px and up) */
 @media screen and (min-width: 768px) {
     nav {
         display: block;
@@ -107,5 +109,22 @@ footer {
 
     .nav-toggle-label {
         display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    main {
+        margin-top: 75px;
+    }
+}
+
+/* Laptops and larger (992px and up */
+@media screen and (min-width:992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
     }
 }
