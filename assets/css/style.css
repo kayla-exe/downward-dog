@@ -77,15 +77,28 @@ display: none;
     font-size: 2rem;
 }
 
+/* Main Content */
 main {
     background-color: pink;
     flex: 1 0 auto;
     margin-top: 39px;
 }
 
-footer {
-    background-color: pink;
+
+/* Footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+}
+
 
 /* Media queries */
 
