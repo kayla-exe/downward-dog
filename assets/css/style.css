@@ -18,6 +18,12 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+h1, h2, h3 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #4b4a4a;
+}
+
 header {
     background-color: #ffffff;
     padding: 0 1rem;
@@ -35,11 +41,6 @@ header a {
     color: inherit;
 }
 
-h1 {
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #4b4a4a;
-}
 
 #menu > li {
     font-size: 110%;
@@ -88,8 +89,35 @@ main {
     height: 600px;
     width: 100%;
     background: url("../images/pexels-yankrukov-8436587.jpg") no-repeat center center/cover;
+    position: relative;
 }
 
+#cover-text {
+    background-color: rgba(55, 150, 151, .7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 20px;
+    width: 250px;
+    height: 150px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#cover-text > h2, #cover-text h3 {
+    color: #ffffff;
+    text-align: center;
+}
+
+#about-section {
+    max-width: 90%;
+    margin: 20px auto;
+}
+
+#about-text {
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 30px;
+}
 
 /* Footer */
 #social-networks {
@@ -138,6 +166,12 @@ main {
 
     main {
         margin-top: 75px;
+    }
+
+    #cover-text {
+        width: 300px;
+        right: 50px;
+        font-size: 150%;
     }
 }
 
