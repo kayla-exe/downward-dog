@@ -119,6 +119,45 @@ main {
     line-height: 30px;
 }
 
+#about-text h2 {
+    font-size: 200%;
+}
+
+#why-us-reasons {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#why-us-reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 200%;
+}
+
+#benefits-instructors {
+    line-height: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#benefits-equipment {
+    line-height: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#benefits-class {
+    line-height: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#benefits-safe {
+    line-height: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
