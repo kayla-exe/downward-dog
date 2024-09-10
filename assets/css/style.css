@@ -144,28 +144,20 @@ main {
     padding-bottom: 10px;
 }
 
-#benefits-instructors {
+.benefits-info {
     line-height: 20px;
     margin-bottom: 20px;
     text-align: center;
 }
 
-#benefits-equipment {
-    line-height: 20px;
-    margin-bottom: 20px;
-    text-align: center;
+#benefits{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
 }
 
-#benefits-class {
-    line-height: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-#benefits-safe {
-    line-height: 20px;
-    margin-bottom: 20px;
-    text-align: center;
+div#benefits-picture img {
+    width: 100%;
 }
 
 /* Footer */
@@ -240,6 +232,20 @@ main {
 
     #about-section > div {
         align-self: flex-end;
+    }
+    #benefits{
+        flex-direction: row;
+        gap: 30px
+    }
+    .benefits-info p {
+        height: 150px;
+    }
+    .benefits-info h3 {
+        height: 50px;
+    }
+    div#benefits-picture img {
+        width: 60%;
+        margin-left: 20%;
     }
 }
 
