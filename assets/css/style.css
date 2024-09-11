@@ -139,6 +139,7 @@ main {
 #why-us-reasons {
     width: 90%;
     margin: 20px auto;
+    margin-top: 80px;
 }
 
 #why-us-reasons h2 {
@@ -319,5 +320,13 @@ div#benefits-picture img {
 @media screen and (min-width:992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
+    }
+
+    #sign-up {
+        height: 600px;
+    }
+ 
+    #sign-up-form {
+        margin-top: 60px;
     }
 }
