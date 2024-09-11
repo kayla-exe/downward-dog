@@ -102,7 +102,56 @@ I chose to use the font Montserrat for the entire site. This font was imported v
 - While testing as I coded, I realised that the navigation bar being stuck to the top of the screen was causing issues with the headers of each section being covered when jumped to with the anchor links in the navigation bar.
 - I fixed this by putting the anchor id div at the very end of the section above where I actually wanted the user to jump too. This made it show that the full desired section, including header was in complete view.
 
-#### Unforunate zooming on Sign-up section
+#### Unfortunate zooming on Sign-up section
 - When I first implemented my sign-up styling, I did it with the idea of 'mobile-first.' 
 - When I inspected the section through the view of a laptop or larger, the background image would zoom in on the three women's chest and cut off their faces, which wasn't ideal.
 - To resolve this, I added a rule within the 'laptop or larger' media query to give the background image a specific height of 600px, as to allow the full image to be shown.
+
+## Technologies Used
+
+### Languages
+- HTML5
+- CSS
+
+### Programs Used
+- [GitHub](https://github.com/)
+- [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/)
+- [W3C](https://www.w3.org/)
+- [Google Fonts](https://fonts.google.com/)
+- [Font Awesome](https://fontawesome.com/)
+- [Am I Responsive](https://ui.dev/amiresponsive)
+- [TinyPNG](https://tinypng.com/)
+
+
+## Deployment
+
+The project was deployed using GitHub pages. The steps to deploy using GitHub pages are:
+
+1. Go to the repository on GitHub.com
+2. Select 'Settings' at the top of the page.
+3. Select 'Pages' from the menu bar on the left of the page.
+4. Under 'Source' select the 'Branch' dropdown menu and select the main branch.
+5. Once selected, click the 'Save'.
+6. Deployment should be confirmed by a message on a green background saying "Your site is published at" followed by the web address.
+
+## Credits
+
+### Content
+All benefits of yoga were found from the below sites:
+- [Yogaru](https://www.yogaru.ie/pause/the-benefits-of-yoga)
+- [Johns Hopkins Medicine](https://www.hopkinsmedicine.org/health/wellness-and-prevention/9-benefits-of-yoga)
+
+
+### Media
+All images and videos were sourced from the one site, listed below:
+- [Pexels](https://www.pexels.com/)
+
+### Resources Used
+
+- My learning from the Code Institute taugh 'Love Running' project [Love Running](https://kayla-exe.github.io/love-running/)
+- Revision of how anchor tags work [Typepad](https://help.typepad.com/anchor-tags.html)
+
+## Acknowledgments
+My mentor Antonio for his support and advice.
+My class cohort Laura for her guidance, understanding and assistance.
+The CI student care team, for giving me the support I needed.
