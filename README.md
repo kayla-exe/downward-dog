@@ -96,6 +96,19 @@ I chose to use the font Montserrat for the entire site. This font was imported v
 - All navigation links were tested manually to ensure the user is directed to the correct section of the website.
 - Social network links in the footer were tested manually to ensure they open in a new tab.
 
+### Browser Testing
+- The Website was tested on Google Chrome, Firefox, and Microsoft Edge browsers with no issues noted.
+    
+### Device Testing
+- The website was viewed on a variety of devices such as Desktop, Laptop, Galaxy Fold 5, iPhone SE and iPad Air to ensure responsiveness on various screen sizes. The website performed as intended. The responsive design was also checked using Chrome developer tools across multiple devices with the site adapting seamlessly as intended with each different device size.
+- I also used the following websites to test responsiveness:
+    - [Responsinator](http://www.responsinator.com/?url=https%3A%2F%2Fkayla-exe.github.io%2Fspirit-yoga%2F)
+    - [Am I Responsive](https://ui.dev/amiresponsive?url=https://kayla-exe.github.io/spirit-yoga/)
+
+
+### Friends and Family User Testing
+I asked numerous tech-savvy friends and family to use the site and to report any bugs they encountered.
+
 ### Fixed Bugs
 #### Page Areas being covered by Navigation Bar when jumped to
 - The navigation bar has anchor links that allow the user to jump to the different areas of the site.
@@ -121,7 +134,7 @@ I chose to use the font Montserrat for the entire site. This font was imported v
 - [Font Awesome](https://fontawesome.com/)
 - [Am I Responsive](https://ui.dev/amiresponsive)
 - [TinyPNG](https://tinypng.com/)
-
+- [Responsinator](http://www.responsinator.com/)
 
 ## Deployment
 
