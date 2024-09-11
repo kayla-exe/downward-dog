@@ -90,7 +90,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/pexels-yankrukov-8436587.jpg") no-repeat center center/cover;
+    background: url("../images/pexels-yankrukov-8436587.webp") no-repeat center center/cover;
     position: relative;
 }
 
@@ -169,7 +169,7 @@ div#benefits-picture img {
 /* Sign-up Form */
 
 #sign-up {
-    background-image: url("../images/pexels-olly-866023.jpg");
+    background-image: url("../images/pexels-olly-866023.webp");
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
