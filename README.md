@@ -62,3 +62,47 @@ I chose to use the font Montserrat for the entire site. This font was imported v
     - This section is valuable as the user is provided clear benefits as to why they should sign-up to the site.
 
 ![Why Us section image](readme-images/whyus.png)
+
+- ### Sign-up Section
+    - The Sign-Up section includes a background image of three women in exercising clothing enjoying their time at a yoga class.
+    - The user is invited to sign up to Spirit Yoga classes, by inputing their personal details.
+
+![Form section image](readme-images/signup.jpg) 
+
+- ### Footer
+    - The footer section includes links to Mind Yoga's Facebook, Instagram, Twitter and Youtube pages.
+    - The links will open to a new tab to allow easy navigation for the user, and to also keep the Spirit Yoga site open in a tab.
+    - The footer is valuable as it allows the user to find all of Spirit Yoga's social networks in one place.
+
+![Footer image](readme-images/footer.png)
+
+## Testing
+
+### Validator Testing
+- #### HTML
+    - No errors or warnings when put through the official HTML Validator
+        [W3C Validator Results](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fkayla-exe.github.io%2Fspirit-yoga%2F)
+- #### CSS
+    - No errors or warnings when put through the official CSS Validator
+        [W3C Validator Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fshowsource%3Dyes%26doc%3Dhttps%253A%252F%252Fkayla-exe.github.io%252Fspirit-yoga%252F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- #### Accessibility 
+    - The site achieved a Lighthouse accessibility score of 100% confirming my effective choice of easy to read colours and designs.
+    - ![CSS Validator image](readme-images/lighthouse.png)
+
+### Form Testing
+- The form has been tested to ensure it would not submit without the necessary input fields being filled in (first name, surname, email, and class type).
+
+### Links Testing
+- All navigation links were tested manually to ensure the user is directed to the correct section of the website.
+- Social network links in the footer were tested manually to ensure they open in a new tab.
+
+### Fixed Bugs
+#### Page Areas being covered by Navigation Bar when jumped to
+- The navigation bar has anchor links that allow the user to jump to the different areas of the site.
+- While testing as I coded, I realised that the navigation bar being stuck to the top of the screen was causing issues with the headers of each section being covered when jumped to with the anchor links in the navigation bar.
+- I fixed this by putting the anchor id div at the very end of the section above where I actually wanted the user to jump too. This made it show that the full desired section, including header was in complete view.
+
+#### Unforunate zooming on Sign-up section
+- When I first implemented my sign-up styling, I did it with the idea of 'mobile-first.' 
+- When I inspected the section through the view of a laptop or larger, the background image would zoom in on the three women's chest and cut off their faces, which wasn't ideal.
+- To resolve this, I added a rule within the 'laptop or larger' media query to give the background image a specific height of 600px, as to allow the full image to be shown.
